@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  def root
-    render json: {"key": "valie"}
+  def hello
+    render hello: "hello, world"
   end
 end
